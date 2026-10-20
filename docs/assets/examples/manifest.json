@@ -1,0 +1,32 @@
+[
+  {
+    "case_name": "橡皮鸭",
+    "task_type": "t2v",
+    "task_id": "T2V_L1_D1_K1_0006",
+    "model": "Seedance 2",
+    "model_version": "doubao-seedance-2-0-260128",
+    "video": "docs/assets/examples/t2v/generated.mp4",
+    "poster": "docs/assets/examples/t2v/poster.jpg",
+    "notes": "Existing generated example; audio may have been removed by the original generation workflow. Not a raw API download."
+  },
+  {
+    "case_name": "白色馒头",
+    "task_type": "flt",
+    "task_id": "0605e0822bfe6bf27aa90c6cf8ecab08_0001_L2_D1_K1",
+    "model": "Seedance 2 Fast",
+    "model_version": "doubao-seedance-2-0-fast-260128",
+    "video": "docs/assets/examples/flt/generated.mp4",
+    "poster": "docs/assets/examples/flt/poster.jpg",
+    "notes": "Existing generated example; audio may have been removed by the original generation workflow. Not a raw API download."
+  },
+  {
+    "case_name": "高温铁球与气球",
+    "task_type": "kft",
+    "task_id": "3c03dcd2fa81e7cebd3fcff8510a4ad7_0001_L1_D1_K1",
+    "model": "Seedance 2 Fast",
+    "model_version": "bytedance/seedance-2.0-fast",
+    "video": "docs/assets/examples/kft/generated.mp4",
+    "poster": "docs/assets/examples/kft/poster.jpg",
+    "notes": "Existing generated example; audio may have been removed by the original generation workflow. Not a raw API download."
+  }
+]

@@ -1,0 +1,2 @@
+{"task_type":"t2v","task_id":"T2V_L1_D1_K1_0006","model":"my-generator-a","model_version":"version-a","video_path":"runs/videos/a/duck.mp4","selected":true}
+{"task_type":"t2v","task_id":"T2V_L1_D1_K1_0006","model":"my-generator-b","model_version":"version-b","video_path":"runs/videos/b/duck.mp4","selected":true}

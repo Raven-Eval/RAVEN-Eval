@@ -1,0 +1,12 @@
+{
+  "evaluation_completed_date": "2026-07-31",
+  "task_counts": {
+    "t2v": 150,
+    "flt": 50,
+    "kft": 50
+  },
+  "models": 20,
+  "result_kind": "published_reference_results",
+  "reproduction_status": "Raw final-paper comparisons are not included. Published scores are reference tables, not recalculated from the task snapshot.",
+  "ci": "Published category CI values retain their original symmetric display; new runs export percentile endpoints."
+}

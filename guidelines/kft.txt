@@ -1,0 +1,4 @@
+Evaluate keyframe-to-video extension. The reference first frame is the generation input.
+Compare the two generated videos using the supplied prompt and scoring_criteria. First apply the primary criteria strictly. If they determine the preference, stop; otherwise apply the important secondary criteria.
+Judge only visual content and the supplied task criteria. Ignore audio. Do not infer preferences from generator identities, filenames, or unrelated information. Model A and Model B are positional aliases.
+Return exactly Better, Worse, or Comparable, describing the FIRST video relative to the SECOND. Provide no explanation or reasoning.
