@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "raven-eval"
+version = "0.1.0"
+description = "Rubric-guided pairwise evaluation for AI video generation"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = ["numpy>=1.24,<3", "scipy>=1.10,<2", "certifi>=2023.7.22"]
+
+[project.scripts]
+raven-judge = "raven_eval.judge:main"
+raven-rank = "raven_eval.ranking:main"
+raven-pairs = "raven_eval.pairs:main"
+raven-generate = "raven_eval.generate:main"
+raven-select = "raven_eval.select:main"
+raven-anchors = "raven_eval.anchors:main"
+raven-demo = "raven_eval.demo:main"
+
+[tool.setuptools.packages.find]
+include = ["raven_eval*"]

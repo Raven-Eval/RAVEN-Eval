@@ -1,0 +1,39 @@
+cff-version: 1.2.0
+message: "If you use RAVEN-Eval, please cite the technical report."
+title: "RAVEN-Eval: Rubric-Guided Automatic Evaluation for AI Video Generation Models Based on LMM Preference Judgement"
+type: software
+version: 0.1.0
+authors:
+  - family-names: Jia
+    given-names: Ziheng
+  - family-names: Qian
+    given-names: Jiaying
+  - family-names: Zhang
+    given-names: Zicheng
+  - family-names: Zhu
+    given-names: Xiaorong
+  - family-names: Gao
+    given-names: Lancheng
+  - family-names: Min
+    given-names: Xiongkuo
+preferred-citation:
+  type: article
+  title: "RAVEN-Eval: Rubric-Guided Automatic Evaluation for AI Video Generation Models Based on LMM Preference Judgement"
+  authors:
+    - family-names: Jia
+      given-names: Ziheng
+    - family-names: Qian
+      given-names: Jiaying
+    - family-names: Zhang
+      given-names: Zicheng
+    - family-names: Zhu
+      given-names: Xiaorong
+    - family-names: Gao
+      given-names: Lancheng
+    - family-names: Min
+      given-names: Xiongkuo
+  journal: arXiv
+  year: 2026
+  identifiers:
+    - type: other
+      value: "arXiv:2608.09111"
